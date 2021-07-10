@@ -87,7 +87,7 @@ library
     , transformers >= 0.2
 
   build-tools:
-    c2hs >= 0.15
+    c2hs >= 0.28.8
 
   if flag(use-pkgconfig)
     if flag(force-narrow-library)
